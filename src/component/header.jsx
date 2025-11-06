@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-
+import Logo from "../assets/logo.png"
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigateTo = useNavigate();
@@ -22,7 +22,7 @@ const Header = () => {
           onClick={() => navigateTo("/")}
           className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer"
         >
-          Fiscal International Services
+          <img className="h-[100px]" src={Logo} alt="" />
         </h1>
 
         {/* Desktop Menu */}
