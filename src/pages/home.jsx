@@ -114,7 +114,7 @@ const HomePage = () => {
                             </button>
                         </div>
                     </div>
-                    <img className="bg-blend-color-burn w-2/3" src={Img1} alt="" />
+                    <img className="bg-blend-color-burn w-0 md:w-2/3" src={Img1} alt="" />
                 </div>
             </section>
 
