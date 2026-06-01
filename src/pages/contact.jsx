@@ -43,7 +43,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500 font-semibold uppercase tracking-wide mb-1">Phone / WhatsApp</p>
-                                        <p className="text-lg text-gray-900">Contact us for number</p>
+                                        <p className="text-lg text-gray-900">+923401260088</p>
                                     </div>
                                 </div>
                             </div>
