@@ -14,10 +14,10 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <div className="space-y-2">
-                            <button onClick={() => navigateTo('home')} className="block text-gray-400 hover:text-white transition-colors">Home</button>
-                            <button onClick={() => navigateTo('services')} className="block text-gray-400 hover:text-white transition-colors">Services</button>
-                            <button onClick={() => navigateTo('about')} className="block text-gray-400 hover:text-white transition-colors">About</button>
-                            <button onClick={() => navigateTo('team')} className="block text-gray-400 hover:text-white transition-colors">Our Team</button>
+                            <button onClick={() => navigateTo('/')} className="block text-gray-400 hover:text-white transition-colors">Home</button>
+                            <button onClick={() => navigateTo('/services')} className="block text-gray-400 hover:text-white transition-colors">Services</button>
+                            <button onClick={() => navigateTo('/about')} className="block text-gray-400 hover:text-white transition-colors">About</button>
+                            <button onClick={() => navigateTo('/team')} className="block text-gray-400 hover:text-white transition-colors">Our Team</button>
                         </div>
                     </div>
                     <div>

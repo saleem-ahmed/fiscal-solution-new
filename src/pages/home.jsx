@@ -1,6 +1,6 @@
 import { CheckCircle, TrendingUp, Clock, Users, Shield, Award, ArrowRight, LineChart, Briefcase, Wallet, Calculator, FileSpreadsheet, BarChart3, PiggyBank } from "lucide-react";
 import Img1 from "../assets/image1.png"
-
+import { useNavigate } from "react-router";
 const benefits = [
     { icon: <TrendingUp className="w-8 h-8 text-white" />, title: 'Tailored Solutions', description: 'Customized for your business needs' },
     { icon: <Users className="w-8 h-8 text-white" />, title: 'Experienced Team', description: 'Experts across multiple domains' },
@@ -10,6 +10,7 @@ const benefits = [
 ];
 
 const HomePage = () => {
+    const navigateTo = useNavigate();
     return (
         <>
             {/* Hero Section */}
@@ -63,7 +64,7 @@ const HomePage = () => {
                                 Get a Free Consultation
                             </button>
                             <button
-                                onClick={() => navigateTo("services")}
+                                onClick={() => navigateTo("/services")}
                                 className="border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
                             >
                                 Our Services

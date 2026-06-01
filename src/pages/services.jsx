@@ -25,6 +25,16 @@ const services = [
         icon: '🎯',
         title: 'Advisory & Consulting',
         description: 'Need help with budgeting, forecasting, financial modeling, or business expansion? We offer tailored advisory services to help your business grow.'
+    },
+    {
+        icon: '📈',
+        title: 'Property Management',
+        description: 'Need help with budgeting, forecasting, financial modeling, or business expansion? We offer tailored advisory services to help your business grow.'
+    },
+    {
+        icon: '👥',
+        title: 'E-commerce',
+        description: 'Need help with budgeting, forecasting, financial modeling, or business expansion? We offer tailored advisory services to help your business grow.'
     }
 ];
 
