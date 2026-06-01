@@ -3,7 +3,10 @@ import { Mail, Globe, Phone } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 // ✅ Replace these with your actual EmailJS credentials
-const EMAILJS_PUBLIC_KEY  = 'lgbYZ-o0TxSwvWWoO';
+// const EMAILJS_PUBLIC_KEY  = 'Fs79_cMnIpK-icKNP';
+// const EMAILJS_SERVICE_ID  = 'service_9dyrkcf';
+// const EMAILJS_TEMPLATE_ID = 'template_qezzcel';
+const EMAILJS_PUBLIC_KEY  = 'BzktT9hAeQuEAsoxc';
 const EMAILJS_SERVICE_ID  = 'service_4way7nq';
 const EMAILJS_TEMPLATE_ID = 'template_esvplpc';
 
