@@ -35,6 +35,7 @@ const Footer = () => {
                         <div className="space-y-2 text-gray-400">
                             <p>fiscalsolutions45@gmail.com</p>
                             <p>www.fiscalinternationalservices.com</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>

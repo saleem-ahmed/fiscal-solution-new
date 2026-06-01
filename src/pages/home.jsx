@@ -13,51 +13,7 @@ const HomePage = () => {
     return (
         <>
             {/* Hero Section */}
-            {/* <section className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-purple-700 text-white pt-32 pb-20 px-6 relative overflow-hidden">
-                <div className="absolute top-20 right-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
-                <div className="absolute bottom-20 left-10 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-
-                <div className="max-w-7xl mx-auto relative z-10">
-                    <div className="max-w-3xl">
-                        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-                            Your Financial Clarity. Our Expertise.
-                        </h1>
-                        <p className="text-xl md:text-2xl mb-8 text-white/90">
-                            We help businesses stay financially organized, compliant, and ready for growth.
-                        </p>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
-                            {[
-                                'Accurate bookkeeping & accounting',
-                                'Smart tax planning & compliance',
-                                'Real-time financial insights',
-                                'Advisory support to grow your business'
-                            ].map((feature, idx) => (
-                                <div key={idx} className="flex items-center space-x-3">
-                                    <CheckCircle className="w-6 h-6 flex-shrink-0" />
-                                    <span className="text-lg">{feature}</span>
-                                </div>
-                            ))}
-                        </div>
-
-                        <div className="flex flex-wrap gap-4">
-                            <button
-                                onClick={() => navigateTo('contact')}
-                                className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
-                            >
-                                Get a Free Consultation
-                            </button>
-                            <button
-                                onClick={() => navigateTo('services')}
-                                className="border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
-                            >
-                                Our Services
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-            <section className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-purple-700 text-white pt-32 pb-20 px-6 relative overflow-hidden">
+            <section className="min-h-screen bg-gradient-to-br flex items-center justify-center from-blue-600 via-purple-600 to-purple-700 text-white pt-32 pb-20 px-6 relative overflow-hidden">
                 {/* Glowing gradient orbs */}
                 <div className="absolute top-20 right-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
                 <div className="absolute bottom-20 left-10 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
